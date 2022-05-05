@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(35, 105, 93);
+}
+
+header {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.box {
+    text-align: center;
+    width: 100px;
+    height: 60px;
+    padding-top: 35px;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: rgb(75, 144, 214);
+}
+
+.fizzbuzz {
+    background-color: rgb(230, 29, 156);
+}
+
+.fizz {
+    background-color: rgb(75, 209, 75);
+}
+
+.buzz {
+    background-color: rgb(197, 197, 49);
+}
