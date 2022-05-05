@@ -51,3 +51,9 @@ main {
 .buzz {
     background-color: rgb(197, 197, 49);
 }
+
+
+.classFooter {
+    font-size: 100px;
+    color: white;
+}
