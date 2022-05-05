@@ -18,12 +18,14 @@ main {
     margin: 0 auto;
 }
 
+/* caratterizzo il container creato direttamente nell'html*/
 .container {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
 }
 
+/* caratterizzo i div con class box, fizzbuzz, fizz, buzz creati con JS*/
 .box {
     text-align: center;
     width: 100px;
@@ -32,6 +34,10 @@ main {
     margin: 10px;
     border: 1px solid black;
     background-color: rgb(75, 144, 214);
+}
+
+.box:hover {
+    border: 5px solid black;
 }
 
 .fizzbuzz {
